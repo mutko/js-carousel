@@ -1,0 +1,25 @@
+.carousel {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.arrow {
+    font-size: 150px;
+    color: rgba(0, 0, 0, .6);
+    user-select: none;
+    cursor: pointer;
+}
+.arrow:hover {
+    color: rgba(0, 0, 0, .9);
+}
+.carousel {
+    display: flex;
+    align-items: center;
+}
+.carousel-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    vertical-align: middle;
+}
